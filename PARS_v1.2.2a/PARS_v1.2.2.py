@@ -90,6 +90,11 @@ class Ui_MainWindow(QWidget): #(object)
         os.environ["QT_AUTO_SCREEN_SCALE_FACTOR"] = "1"
         # qapp = QApplication(sys.argv)
         # qapp.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling)
+        
+        if hasattr(QtCore.Qt, 'AA_EnableHighDpiScaling'):
+            QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True)
+        if hasattr(QtCore.Qt, 'AA_UseHighDpiPixmaps'):
+            QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps, True)
 
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
         sizePolicy.setHorizontalStretch(0)
