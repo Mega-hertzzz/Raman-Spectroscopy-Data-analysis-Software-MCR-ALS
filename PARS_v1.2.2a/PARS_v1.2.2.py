@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Form implementation generated from reading ui file 'Radans2.ui'
-# Creator : Mohammad Hosein Zakaryapour (MHz: MegaHertz)
+# Creator : Matin Zakariapour (MHz: MegaHertz)
 
 # PARS: a Program for Analysis of Raman Spectra
 
