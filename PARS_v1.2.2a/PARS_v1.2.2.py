@@ -3,6 +3,7 @@
 # Creator : Matin Zakariapour (MHz: MegaHertz)
 
 # PARS: a Program for Analysis of Raman Spectra
+# This software is designed for pre-processing and analysis of Raman spectral data and creating Raman maps.
 
 
 import matplotlib.pyplot as plt
